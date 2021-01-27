@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "January 15, 2021, 21:52:49 UTC",
+            "CV_collection_modified": "January 27, 2021, 21:31:14 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -42,7 +42,8 @@
         },
         "institution_id": {
             "CCCma": "Canadian Centre for Climate Modelling and Analysis, Environment and Climate Change Canada, Victoria, BC V8P 5C2, Canada",
-            "CNRM-CERFACS": "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)"
+            "CNRM-CERFACS": "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)",
+            "ETH-PMOD": "IAC ETH, Zurich and PMOD/WRC, Davos, Switzerland"
         },
         "source_id": {
             "CMAM": {
@@ -58,6 +59,13 @@
                 "institution_id": "CNRM-CERFACS",
                 "source_id": "CNRM-MOCAGE-1-HR",
                 "source": "CNRM-MOCAGE-1-HR: a completer"
+            },
+            "SOCOL": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "ETH-PMOD",
+                "source_id": "SOCOL",
+                "source": "SOCOL: \natmos: SOCOL (T63; 47 levels; top level 0.01 Pa) \natmosChem: stratospheric and tropospheric mechanism \nocean: none"
             }
         },
         "source_type": {
