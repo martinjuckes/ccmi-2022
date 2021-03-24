@@ -33,7 +33,7 @@
             "variant_label"
         ],
         "version_metadata": {
-            "CV_collection_modified": "February 23, 2021, 15:05:34 UTC",
+            "CV_collection_modified": "March 16, 2021, 15:49:57 UTC",
             "CV_collection_version": "0.9.0",
             "author": "David Plummer <david.plummer@canada.ca>"
         },
@@ -44,9 +44,25 @@
             "CCCma": "Canadian Centre for Climate Modelling and Analysis, Environment and Climate Change Canada, Victoria, BC V8P 5C2, Canada",
             "CNRM-CERFACS": "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)",
             "ETH-PMOD": "IAC ETH, Zurich and PMOD/WRC, Davos, Switzerland",
-            "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany"
+            "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
+            "NCAR": "National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA",
+            "NIES": "National Institute for Environmental Studies, Ibaraki 305-8506, Japan"
         },
         "source_id": {
+            "CCSRNIES-MIROC32": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "NIES",
+                "source_id": "CCSRNIES-MIROC32",
+                "source": "CCSRNIES-MIROC32 (2020): \natmos: CCSRNIES-MIROC3.2 (T42; 34 levels; top level 0.01 Pa) \natmosChem: stratospheric mechanism \nocean: none"
+            },
+            "CESM2-WACCM": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "NCAR",
+                "source_id": "CESM2-WACCM",
+                "source": "CESM2-WACCM (2018): \naerosol: MAM4 (same grid as atmos)\natmos: WACCM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-06 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
+            },
             "CMAM": {
                 "activity_participation": "CCMI2022",
                 "cohort": "Registered",
@@ -156,6 +172,7 @@
                 "activity_id": "CCMI2022",
                 "experiment": "Hindcast",
                 "experiment_id": "refD1",
+                "parent_experiment_id": "no parent",
                 "sub_experiment_id": [
                     "none"
                 ]
@@ -164,6 +181,7 @@
                 "activity_id": "CCMI2022",
                 "experiment": "Baseline projection using CMIP6 SSP2-45 GHGs and precursor emissions with WMO-2018 ODSs",
                 "experiment_id": "refD2",
+                "parent_experiment_id": "no parent",
                 "sub_experiment_id": [
                     "none"
                 ]
@@ -172,15 +190,16 @@
                 "activity_id": "CCMI2022",
                 "experiment": "Baseline (SSP2-45) with geoengineering using specified stratospheric aerosol distribution and specified SSTs/sea-ice",
                 "experiment_id": "senD2-geo",
+                "parent_experiment_id": "refD2",
                 "sub_experiment_id": [
                     "none"
-                ],
-                "parent_experiment_id": "refD2"
+                ]
             },
             "senD2-ssp126": {
                 "activity_id": "CCMI2022",
                 "experiment": "Future projection using CMIP6 SSP1-26 GHGs and precursor emissions with WMO-2018 ODSs",
                 "experiment_id": "senD2-ssp126",
+                "parent_experiment_id": "no parent",
                 "sub_experiment_id": [
                     "none"
                 ]
@@ -188,6 +207,7 @@
             "senD2-ssp370": {
                 "activity_id": "CCMI2022",
                 "experiment": "Future projection using CMIP6 SSP3-70 GHGs and precursor emissions with WMO-2018 ODSs",
+                "parent_experiment_id": "no parent",
                 "experiment_id": "senD2-ssp370",
                 "sub_experiment_id": [
                     "none"
